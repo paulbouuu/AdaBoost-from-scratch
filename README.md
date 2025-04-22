@@ -36,7 +36,6 @@ This repository provides a minimal, from‑scratch implementation of AdaBoost us
 
 - Numpy
 - Matplotlib
-- Scipy
 - Pillow  (if you set `create_gif=True`)
 
 ---
