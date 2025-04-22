@@ -44,6 +44,7 @@ This repository provides a minimal, from‑scratch implementation of AdaBoost us
 
 You can test the algorithm and generate visualizations with the included notebook `adaboost_demo.ipynb`. This repo has been designed to be simple to understand and modify.
 
+The `make_moons` function in `utils.py` is based on the `make_moons` function from `sklearn.datasets` and has been reimplemented to avoid any dependencies other than `numpy`. It generates a dataset of two interleaving half circles (common test case for binary classifiers).
 
 ## Documentation:
 
